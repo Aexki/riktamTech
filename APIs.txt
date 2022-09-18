@@ -1,0 +1,47 @@
+# The APIs available in this project are :
+
+  http://127.0.0.1:8000/admin (To access the admin panel)
+  http://127.0.0.1:8000/user/login (To login as user)
+  http://127.0.0.1:8000/user/logout (To logout for user)
+  http://127.0.0.1:8000/user/getUsers (To search for the user)
+  http://127.0.0.1:8000/group/create (To create group)
+  http://127.0.0.1:8000/group/delete (To delete group)
+  http://127.0.0.1:8000/group/getGroups (To get groups)
+  http://127.0.0.1:8000/message/sendMessage (To send message)
+  http://127.0.0.1:8000/message/likeMessage (To like message)
+  http://127.0.0.1:8000/message/getMessage (To get messages)
+
+# Payloads for the APIs -
+
+  group/create : {
+      "groupName": "DragonsBane",
+      "members": "user1, user2",
+      "createdBy": "user1",
+      "createdTime": "2022-09-18 01:43:23"
+  }
+
+  group/delete : {
+      "groupId": "f59da65285d5482f96e0bc4654878e18"
+  }
+
+  user/getUsers : {
+      "conditions": {
+          "username": "user1"
+      }
+  }
+
+  message/sendMessage : {
+      "message": "Hello, how ru ?",
+      "groupId": "9b768b49eb0e46b5b25e7e54a634f6d0",
+      "sentBy": "user1",
+      "sentTime": "2022-09-18 01:43:23"
+  }
+
+  message/likeMessage : {
+      "messageId": "6c5cef5ef71f4fb7a7b1477f89177cf7",
+      "username": "user2"
+  }
+
+  message/getMessage : {
+      "groupId": "9b768b49eb0e46b5b25e7e54a634f6d0"
+  }
