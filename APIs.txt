@@ -1,15 +1,15 @@
 # The APIs available in this project are :
 
-  http://127.0.0.1:8000/admin (To access the admin panel)
-  http://127.0.0.1:8000/user/login (To login as user)
-  http://127.0.0.1:8000/user/logout (To logout for user)
-  http://127.0.0.1:8000/user/getUsers (To search for the user)
-  http://127.0.0.1:8000/group/create (To create group)
-  http://127.0.0.1:8000/group/delete (To delete group)
-  http://127.0.0.1:8000/group/getGroups (To get groups)
-  http://127.0.0.1:8000/message/sendMessage (To send message)
-  http://127.0.0.1:8000/message/likeMessage (To like message)
-  http://127.0.0.1:8000/message/getMessage (To get messages)
+  (POST)http://127.0.0.1:8000/admin (To access the admin panel)
+  (POST)http://127.0.0.1:8000/user/login (To login as user)
+  (POST)http://127.0.0.1:8000/user/logout (To logout for user)
+  (POST)http://127.0.0.1:8000/user/getUsers (To search for the user)
+  (POST)http://127.0.0.1:8000/group/create (To create group)
+  (POST)http://127.0.0.1:8000/group/delete (To delete group)
+  (GET)http://127.0.0.1:8000/group/getGroups (To get groups)
+  (POST)http://127.0.0.1:8000/message/sendMessage (To send message)
+  (POST)http://127.0.0.1:8000/message/likeMessage (To like message)
+  (POST)http://127.0.0.1:8000/message/getMessage (To get messages)
 
 # Payloads for the APIs -
 
